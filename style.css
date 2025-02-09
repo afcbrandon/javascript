@@ -1,0 +1,48 @@
+/* Body style */
+body {
+  background-color: aliceblue;
+  font-family: "Gill Sans", sans-serif;
+}
+/* Navigation Bar style */
+#top-nav {
+  background-color: darkslategray;
+  font-size: 20px;
+}
+#top-nav a:link {
+  color: whitesmoke;
+}
+#top-nav a:visited {
+  color: whitesmoke;
+}
+#top-nav a:hover {
+  color: black;
+}
+/* Main style */
+main {
+  background-color: lightgrey;
+}
+.school {
+  color: navy;
+  font-style: italic;
+  font-weight: bold;
+}
+/* Image style */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 2%;
+}
+/* Footer Style */
+footer {
+  background-color: gray;
+}
+footer a:link {
+  color: black;
+}
+footer a:visited {
+  color: black;
+}
+footer a:hover {
+  color: whitesmoke;
+}
