@@ -1,0 +1,55 @@
+body {
+  background-color: #afb4ad;
+  font-family: "Gill Sans", sans-serif;
+}
+header {
+  text-align: center;
+  color: #2e3613;
+}
+
+/* Style for navigation bar */
+#top-nav {
+  background-color: #464b37;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+#top-nav a:link {
+  color: whitesmoke;
+}
+#top-nav a:visited {
+  color: whitesmoke;
+}
+
+/* Style for main */
+main .javascript {
+  padding: 5px;
+}
+
+/* Style for quote of the day */
+.quote {
+  font-size: large;
+  font-weight: bold;
+  color: #2e3613;
+}
+
+/* Style for list of websites */
+.list p {
+  font-weight: bold;
+}
+.list a {
+  color: black;
+}
+
+/* Footer Style */
+footer {
+  background-color: #262b15;
+  text-align: center;
+  color: #d7e1dd;
+}
+footer a:link {
+  color: #d7e1dd;
+}
+footer a:visited {
+  color: #d7e1dd;
+}

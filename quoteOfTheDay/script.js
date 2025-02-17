@@ -14,7 +14,7 @@ var quoteOfTheDay = [
   */
 var userNumber = prompt("Please enter a number");
 userNumber = userNumber % 5;
-document.write(quoteOfTheDay[userNumber]);
+document.write("<p><span class='quote'>" + quoteOfTheDay[userNumber]) + "</span></p>";
 
 // Array of 3 favorite websites
 var website = ["https://www.autozone.com", "https://www.youtube.com", "https://store.steampowered.com/"];
@@ -26,6 +26,7 @@ var website = ["https://www.autozone.com", "https://www.youtube.com", "https://s
 var userFavoriteWebsite = prompt("Enter the url of your favorite website (ignore the first 'www' part)");
 website.push(userFavoriteWebsite);
 website.shift();
-document.write("<p><a href='" + website[0] + "' target='_blank'>Youtube</a></p>")
-document.write("<p><a href='" + website[1] + "' target='_blank'>Steam</a></p>")
-document.write("<p><a href='https://www." + website[2] + "' target='_blank'>Your Favorite Website</a></p>")
+document.write("<div class='list'><p>List of Websites</p>");
+document.write("<ul><li><a href='" + website[0] + "' target='_blank'>Youtube</a></li>");
+document.write("<li><a href='" + website[1] + "' target='_blank'>Steam</a></li>");
+document.write("<li><a href='https://www." + website[2] + "' target='_blank'>Your Favorite Website</a></li></ul></div>");
