@@ -16,10 +16,10 @@ userNumber = parseInt(userNumber);  // userNumber is converted to an Integer
 */
 if (userNumber === secretNumber) {
   points += 10;
-  document.write("<h2>Congratulations!</h2>");
-  document.write("<p>Points Earned: " + points + "</p>");
+  document.write("<h2>Congratulations! You guessed the correct number!</h2>");
+  document.write("<p>Points Earned: <b>" + points + "</b></p>");
 }
 else {
-  document.write("<h2>Sorry!</h2>")
-  document.write("<p>Points Earned: " + points + "</p>");
+  document.write("<h2>Sorry! Your number was incorrect. Better Luck Next Time!</h2>")
+  document.write("<p>Points Earned: <b>" + points + "</b></p>");
 }
