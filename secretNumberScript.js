@@ -1,4 +1,4 @@
-var secretNumber = 4;
+var secretNumber = 4; // Secret number with a value of 4
 var points = 0;
 var userNumber = prompt("Enter a valid number (between 1 and 5)");
 
