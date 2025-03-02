@@ -16,9 +16,18 @@ header {
 }
 #top-nav a:link {
   color: whitesmoke;
+  text-decoration: none;
+  width: 50%;
 }
 #top-nav a:visited {
   color: whitesmoke;
+  text-decoration: none;
+  width: 50%;
+}
+#top-nav a:hover {
+  color: #9fba94;
+  text-decoration: none;
+  width: 50%;
 }
 
 /* Style for main */
