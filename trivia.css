@@ -1,0 +1,101 @@
+body {
+  background-color: #e7f1fb;
+  font-family: "Gill Sans", sans-serif;
+}
+header {
+  text-align: center;
+  color: #0b385f;
+}
+
+/* Style for navigation bar */
+#top-nav {
+  background-color: #a5c9eb;
+  font-size: 2em;
+  text-align: center;
+  padding: 10px 0px 10px 0px;
+}
+#top-nav a:link {
+  color: #2d313b;
+  text-decoration: none;
+  width: 50%;
+}
+#top-nav a:visited {
+  color: #2d313b;
+  text-decoration: none;
+  width: 50%;
+}
+#top-nav a:hover {
+  color: #e7f1fb;
+  text-decoration: none;
+  width: 50%;
+}
+
+/* Style for main */
+/* JavaScript Section Style */
+main .javascript {
+  margin: 1em;
+  text-align: center;
+}
+main .javascript h3 {
+  color: #dfefff;
+  font-size: 2em;
+  font-weight: bolder;
+}
+main .javascript p {
+  color: #dfefff;
+  font-size: 4em;
+  font-weight: bold;
+}
+/* greeting */
+main .javascript .greeting {
+  background-color: #235b90;
+  border-radius: 5px;
+}
+main .javascript .greeting p {
+  font-size: 2em;
+}
+/* date and Time */
+main .javascript .dateTime {
+  background-color: #235b90;
+  border-radius: 5px;
+}
+main .javascript .dateTime p {
+  font-size: 2em;
+}
+/* email */
+main .javascript .email {
+  background-color: #235b90;
+  border-radius: 5px;
+}
+main .javascript .email p {
+  font-size: 2em;
+}
+/* quote */
+main .javascript .quote {
+  background-color: #235b90;
+  border-radius: 5px;
+}
+main .javascript .quote p {
+  font-size: 2em;
+}
+/* quiz */
+main .javascript .quiz-score {
+  background-color: #235b90;
+  border-radius: 5px;
+}
+main .javascript .quiz-score p{
+  font-size: 2em;
+}
+
+/* Footer Style */
+footer {
+  background-color: #0b385f;
+  text-align: center;
+  color: #e7f1fb;
+}
+footer a:link {
+  color: #e7f1fb;
+}
+footer a:visited {
+  color: #e7f1fb;
+}

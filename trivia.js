@@ -174,14 +174,17 @@ function currDateTime() {
   var name = prompt("Please enter your name:");
   name = capitalizeFirstLetter(name);
 
-  document.write("<div class='dateTime'>");
-  document.write(`<p>${greeting(dateHour, name)}.</p>`);  // calls the greeting function
-  document.write("<p>");
-  document.write(`Today is ${day}, ${month} ${numDay}, ${year}. `);
-  document.write(`It is ${hour}:${mins} ${meridiem}`);
-  document.write("</p>");
+  // Calls the greeting function and writes to the document
+  document.writeln("<div class='greeting'>");
+  document.writeln(`<p>${greeting(dateHour, name)}.</p>`);
+  document.writeln("</div>");
 
-  document.write("</div>");
+  document.writeln("<div class='dateTime'>");
+  document.writeln("<p>");
+  document.writeln(`Today is ${day}, ${month} ${numDay}, ${year}. `);
+  document.writeln(`It is ${hour}:${mins} ${meridiem}`);
+  document.writeln("</p>");
+  document.writeln("</div>");
 }
 
 /* 
@@ -231,6 +234,5 @@ randomQuote(quoteOfTheDay);
 var score = questionPoints(questions, answers);
 var percentage = ((score / 9) * 100).toFixed(2);
 document.writeln("<div class='quiz-score'>");
-document.writeln("<h3>TOTAL SCORE</h3>");
-document.writeln(`<p> ${score} Points ${percentage}\%</p>`);
+document.writeln(`<p>Score: ${score} Points - ${percentage}\%</p>`);
 document.writeln("</div>")
