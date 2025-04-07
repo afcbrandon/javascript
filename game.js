@@ -48,9 +48,5 @@ function checkAnswer(answerIndex, correctIndex) {
 
 }
 
-/*  Function that lets user restart the game */
-function restart() {
-}
-
 /*  Beginning Manipulating the Document */
 document.getElementById('prompt').innerHTML = "<button id='playButton' onClick='playGame()'>Play Game</button>";
