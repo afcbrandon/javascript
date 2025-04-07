@@ -19,11 +19,11 @@ function playGame() {
 
   document.getElementById('answers').innerHTML =
     "<p>Select the best response:</p>" +
-    "<li><button onClick='checkAnswer(" + 0 + ", " + correctIndex + ")'>" + questions[counter][0] + "</button></li>" +
+    "<li><a href=\"#\" onClick='checkAnswer(" + 0 + ", " + correctIndex + ")'>" + questions[counter][0] + "</a></li>" +
     "<li><p></p></li>" +
-    "<li><button onClick='checkAnswer(" + 1 + ", " + correctIndex + ")'>" + questions[counter][1] + "</button></li>" +
+    "<li><a href=\"#\" onClick='checkAnswer(" + 1 + ", " + correctIndex + ")'>" + questions[counter][1] + "</a></li>" +
     "<li><p></p></li>" +
-    "<li><button onClick='checkAnswer(" + 2 + ", " + correctIndex + ")'>" + questions[counter][2] + "</button></li>";
+    "<li><a href=\"#\" onClick='checkAnswer(" + 2 + ", " + correctIndex + ")'>" + questions[counter][2] + "</a></li>";
 }
 
 /* Function that checks to see if player's answer is correct */
@@ -38,10 +38,10 @@ function checkAnswer(answerIndex, correctIndex) {
 
   counter++;
 
-  if (counter < 3) {
+  if (counter < 3) {  // Game moves to next question if there are more questions left in array
     document.getElementById('playButton').click();
   }
-  else {
+  else {  // If all questions have been asked, then player is alerted to press the restart button to replay the game
     document.getElementById('prompt').innerHTML = "<button id='restartButton' onClick='location.reload()'>Restart Game</button>";
     alert("The game has ended. Press the \"Restart Game\" button to replay the game!");
   }
