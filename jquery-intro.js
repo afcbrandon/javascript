@@ -25,7 +25,7 @@ $(document).ready(function() {
   
   //  jQuery function calls go here
   // Get the date variables
-  var currentDate = new Date("2025-12-25T03:24:00");
+  var currentDate = new Date();
   var month = currentDate.getMonth();
   var year = currentDate.getFullYear();
 
