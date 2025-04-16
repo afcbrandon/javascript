@@ -88,3 +88,12 @@ input[type='submit'] {
 	background-color: #afeeee;
 	text-align: center;
 }
+#rose {
+	position: absolute;
+	right: -100px;
+	top: 20px;
+	opacity: 0;
+}
+	#container {
+	position: relative;
+}
