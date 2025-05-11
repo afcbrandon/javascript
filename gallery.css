@@ -1,3 +1,9 @@
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
 body {
 	background: url(../images/fallbg.jpg);
 	background-size: cover;
