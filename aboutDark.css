@@ -1,0 +1,146 @@
+/* Body style */
+body {
+  background-color: #2f3c56;
+  font-family: "Gill Sans", sans-serif;
+}
+/* Navigation Bar style */
+#top-nav {
+  text-align: center;
+  background-color: #001b2e;
+  font-size: 1.5em;
+  padding: 10px 0px 10px 0px;
+}
+#top-nav a:link {
+  color: #b3cde4;
+  text-decoration: none;
+  width: 50%;
+}
+#top-nav a:visited {
+  color: #b3cde4;
+  text-decoration: none;
+  width: 50%;
+}
+#top-nav a:hover {
+  color: #3b7fb7;
+  text-decoration: none;
+  width: 50%;
+}
+/* Main style */
+main {
+  background-color: #41547a;
+  background-color: #48657d;
+  border-radius: 10px;
+  margin: 1em 1em 1em 1em;
+}
+/*  div .about */
+.about h3 {
+  text-align: center;
+  padding-top: 1em;
+}
+.about p {
+  text-align: center;
+  padding: 0 1em 0 1em;
+}
+/* div .learned */
+.learned h3 {
+  text-align: center;
+}
+.learned p {
+  text-align: center;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.buttons #theme, .buttons button {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  padding-block: 0.5rem;
+  padding-inline: 1.25rem;
+  background-color: #285982;
+  border-radius: 99px;
+  cursor: pointer;
+  color: #ffff;
+  font-weight: bold;
+  border: 3px solid #ffffff4d;
+  outline: none;
+  overflow: hidden;
+  font-size: 15px;
+}
+
+.buttons #theme:hover, .buttons button:hover {
+  transform: scale(1.05);
+  border-color: #fff9;
+}
+
+.buttons #theme:hover::before, .buttons button:hover::before {
+  animation: shine 1.5s ease-out infinite;
+}
+
+.buttons #theme::before, .buttons button::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100%;
+  background-image: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 30%,
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0) 70%
+  );
+  top: 0;
+  left: -100px;
+  opacity: 0.6;
+}
+
+@keyframes shine {
+  0% {
+    left: -100px;
+  }
+
+  60% {
+    left: 100%;
+  }
+
+  to {
+    left: 100%;
+  }
+}
+
+/* div .goals */
+.goals h3 {
+  text-align: center;
+}
+.goals p {
+  text-align: center;
+  padding-bottom: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+/* Footer Style */
+footer {
+  background-color: #001b2e;
+}
+footer a:link {
+  color: #b3cde4;
+}
+footer a:visited {
+  color: #b3cde4;
+}
+footer a:hover {
+  color: #537692;
+}
+footer p {
+  text-align: center;
+  color: #b3cde4;
+}
+.date {
+  color: #b3cde4;
+}
